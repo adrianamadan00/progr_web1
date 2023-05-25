@@ -1,0 +1,13 @@
+<h2>Telefoane Mobile</h2>
+<p>Bine ați venit pe pagina mea dedicată telefoanelor mobile. Aici veți găsi o selecție largă de telefoane de ultimă generație.</p>
+<p>Consultați lista de telefoane disponibile mai jos:</p>
+
+<ul>
+  <li *ngFor="let telefon of telefoane" class="phone-item">
+    <h3>{{ telefon.nume }}</h3>
+    <p><strong>Producător:</strong> {{ telefon.producator }}</p>
+    <p><strong>An lansare:</strong> {{ telefon.an }}</p>
+    <p><strong>Descriere:</strong> {{ telefon.descriere }}</p>
+  </li>
+</ul>
+<a routerLink="/">Înapoi la pagina principală</a>
