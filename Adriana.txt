@@ -221,9 +221,9 @@ function Average(array) {
 //Task #1 - object creation
 
  let user = {};
- user={name : "Rostislav"};
- user={surname : "Cotiuba"};
- user.name = "RK"
+ user={name : "Madan"};
+ user={surname : "Adriana"};
+ user.name = "MA"
  delete user.name
 
 //Task #2 - working with properties
@@ -256,7 +256,7 @@ function Average(array) {
  },
  address: `Moldova, Balti`
  }
- person.contacts.phone=`+373568759`;
+ person.contacts.phone=`+3736753090`;
  delete person.address
 
 //Task #8 - working with keys
